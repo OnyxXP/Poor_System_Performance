@@ -3,3 +3,4 @@ Generic but extensive cleanup of cookies/cache/temp files on Windows based asset
 
 Explanation of Functions:
 InstallCMTrace; Download and install Microsoft's CMTrace log viewing tool from SCCM.
+DiskSpaceBefore; Captures disk space before the script removes any files.
