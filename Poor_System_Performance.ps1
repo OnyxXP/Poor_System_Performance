@@ -1706,6 +1706,7 @@ Write-Host "Setup complete!" -ForegroundColor Green
 ###############
 #region Variables
 Write-Host "Setting Variables..." -ForegroundColor Yellow
+#region Standard_Variables
 ## 20170929.jmeyer.Moved to 1.6 for full deployment at Helion.
 ## 20200811.jmeyer.Moved to 1.7 due to combining several scripts.
 $ScriptName = "Poor_System_Performance"
@@ -1737,6 +1738,7 @@ $GHUserName = "OnyxXP"
 ## URL's for version check and script file
 $GitHubVersion = "https://raw.githubusercontent.com/$GHUserName/$($ScriptName)/main/CurrentVersion.txt"
 $NewScriptFile = "https://raw.githubusercontent.com/$GHUserName/$($ScriptName)/main/$($ScriptName).ps1"
+#endregion Standard_Variables
 ## 20170125.jmeyer.Added all user's to cleanup.
 $UserDir = "C:\Users\*\AppData"
 $OfficeDir = "Local\Microsoft\Office"
